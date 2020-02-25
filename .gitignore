@@ -5,3 +5,4 @@
 pc.stdout.log
 
 .ensime_cache
+*.log
