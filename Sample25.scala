@@ -12,6 +12,7 @@ object Sample25{
 
 // クラスパラメーターにインスタンスフィールドの定義を結合
 // クラスパラメーターにvar or valを追加するだけ！
+// インスタンスフィールドとメソッド(または補助コンストラクタ)の引数名は重複OK
 class Person(val name:String, var age:Int, val graduate:String, var job:String){
   def this(name:String, age:Int, graduate:String){
     this(name, age, graduate, "無職")
